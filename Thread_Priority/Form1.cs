@@ -22,7 +22,7 @@ namespace Thread_Priority
         {
             Console.WriteLine("-Before starting thread-");
 
-            // Thread A
+         
             Thread threadA = new Thread(new ThreadStart(MyThreadClass.Thread1));
             threadA.Priority = System.Threading.ThreadPriority.Highest;
             threadA.Name = "Thread A Process";
